@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Header{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+   
+}
+.header-contain{
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.form{
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.btn1{
+    padding: 10px;
+    margin-left: 38%;
+}
+.contain{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.container-data{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Main-Container{
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.contain-image{
+    width: 100%;
+    height: 40%;
+
+}
+.contain-image img{
+    width: 100%;
+    height: 100%;
+
+}
+.container-title h3{
+    text-align: center;
+    padding-top: 10px;
+}
+.container-title p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Container-PRICE h2{
+    text-align: center;
+    padding-top: 5px;
+}
+.Container-dec p{
+   text-align: center;
+   padding-top: 5px;
+}
+.adddata{
+    width: 300px;
+    height: 380px;
+    margin-top: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border: 1px solid grey;
+}
+.adddata h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pagination-btn{
+    margin-top: 20px;
+    position: absolute;
+     left: 50%;
+}
+.pagination-btn button{
+    padding: 5px;
+    margin-right: 15px;
+}
